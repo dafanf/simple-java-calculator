@@ -8,8 +8,4 @@ public class Validate {
             return false;
         return true;
     }
-
-    public static boolean isPositive(int number) {
-        return number > 0;
-    }
 }

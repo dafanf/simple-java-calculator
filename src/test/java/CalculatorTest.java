@@ -39,13 +39,6 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testIsPositive() {
-        Validate validate = new Validate();
-        assertTrue(validate.isPositive(5));
-        assertFalse(validate.isPositive(-5));
-    }
-
-    @Test
     public void testAddSameObject() {
         Calculator calculator1 = new Calculator();
         Calculator calculator2 = calculator1;
