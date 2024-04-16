@@ -19,8 +19,4 @@ public class Calculator {
         }
         return a / b;
     }
-
-    public boolean isPositive(int number) {
-        return number > 0;
-    }
 }

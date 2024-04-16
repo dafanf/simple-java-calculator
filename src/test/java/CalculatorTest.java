@@ -37,12 +37,12 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         calculator.divide(10, 0);
     }
-    
+
     @Test
     public void testIsPositive() {
-        Calculator calculator = new Calculator();
-        assertTrue(calculator.isPositive(5));
-        assertFalse(calculator.isPositive(-5));
+        Validate validate = new Validate();
+        assertTrue(validate.isPositive(5));
+        assertFalse(validate.isPositive(-5));
     }
 
     @Test
