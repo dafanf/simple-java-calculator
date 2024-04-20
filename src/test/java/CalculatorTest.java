@@ -44,4 +44,11 @@ public class CalculatorTest {
         calculator.divide(operand1, operand2);
     }
 
+    @Test
+    public void testDivideFail() { // Untuk melihat hasil incident report yang di generate
+        int operand1 = 20;
+        int operand2 = 10;
+        Calculator calculator = new Calculator();
+        assertEquals(5, calculator.divide(operand1, operand2));
+    }
 }
