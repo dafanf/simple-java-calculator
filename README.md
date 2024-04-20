@@ -8,8 +8,6 @@ This project is a simple implementation of a calculator in Java. It allows users
 - [Features](#features)
 - [Usage](#usage)
 - [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
