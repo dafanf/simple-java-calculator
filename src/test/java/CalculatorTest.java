@@ -1,8 +1,4 @@
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertSame;
-import static org.junit.Assert.assertNotSame;
 import org.junit.Test;
 import com.example.*;
 
@@ -10,45 +6,42 @@ public class CalculatorTest {
 
     @Test
     public void testAdd() {
+        int operand1 = 20;
+        int operand2 = 10;
         Calculator calculator = new Calculator();
-        assertEquals(5, calculator.add(2, 3));
+        assertEquals(30, calculator.add(operand1, operand2));
     }
 
     @Test
     public void testSubtract() {
+        int operand1 = 20;
+        int operand2 = 10;
         Calculator calculator = new Calculator();
-        assertEquals(3, calculator.subtract(5, 2));
+        assertEquals(10, calculator.subtract(operand1, operand2));
     }
 
     @Test
     public void testMultiply() {
+        int operand1 = 20;
+        int operand2 = 10;
         Calculator calculator = new Calculator();
-        assertEquals(10, calculator.multiply(2, 5));
+        assertEquals(200, calculator.multiply(operand1, operand2));
     }
 
     @Test
     public void testDivide() {
+        int operand1 = 20;
+        int operand2 = 10;
         Calculator calculator = new Calculator();
-        assertEquals(2, calculator.divide(10, 5));
+        assertEquals(2, calculator.divide(operand1, operand2));
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void testDivideByZero() {
+        int operand1 = 10;
+        int operand2 = 0;
         Calculator calculator = new Calculator();
-        calculator.divide(10, 0);
+        calculator.divide(operand1, operand2);
     }
 
-    @Test
-    public void testAddSameObject() {
-        Calculator calculator1 = new Calculator();
-        Calculator calculator2 = calculator1;
-        assertSame(calculator1, calculator2);
-    }
-
-    @Test
-    public void testAddDifferentObject() {
-        Calculator calculator1 = new Calculator();
-        Calculator calculator2 = new Calculator();
-        assertNotSame(calculator1, calculator2);
-    }
 }
