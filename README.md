@@ -47,14 +47,3 @@ Result: 15
 
 The project includes JUnit tests to ensure the correctness of the calculator functionality and input validation. Run the test classes (`CalculatorTest`, `ComputeTest`, `ValidateInputTest`, `ValidateTest`) to execute the tests.
 
-## Contributing
-
-Contributions to this project are welcome. Feel free to submit bug reports, feature requests, or pull requests.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize the ReadMe file further based on your preferences or specific project requirements!
