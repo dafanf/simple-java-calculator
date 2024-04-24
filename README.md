@@ -1,47 +1,53 @@
-# Simple Calculator Project
+# README
 
-This project is a simple implementation of a calculator in Java. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division on two integers.
+## Overview Project
+Proyek ini adalah program kalkulator sederhana berbasis konsol yang diimplementasikan dalam bahasa Java. Ini memungkinkan pengguna untuk melakukan operasi aritmatika dasar seperti penambahan, pengurangan, perkalian, dan pembagian.
 
-## Table of Contents
+## Library yang dibutuhkan untuk Build (Build With)
+Proyek ini dibangun menggunakan Java dan tidak memerlukan pustaka eksternal.
 
-- [Overview](#overview)
-- [Features](#features)
-- [Usage](#usage)
-- [Testing](#testing)
+## Prerequisites
+Untuk menjalankan proyek ini, pastikan Anda telah menginstal Java Development Kit (JDK) di sistem Anda.
 
-## Overview
+## Installation
+1. Clone repositori ke mesin lokal Anda.
+2. Buka proyek di IDE Java pilihan Anda (misalnya IntelliJ IDEA, Eclipse).
+3. Bangun proyek untuk mengompilasi kode.
 
-The calculator project consists of several Java classes:
+## File Configuration
+Tidak ada konfigurasi file khusus yang diperlukan. Struktur proyek diorganisir sebagai berikut:
 
-- **Calculator**: Contains methods for performing arithmetic operations (addition, subtraction, multiplication, division).
-- **Compute**: Provides a method for computing arithmetic operations based on user input.
-- **Main**: The main class where the calculator application is executed. It takes user input and utilizes the `Calculator` and `Compute` classes to perform calculations.
-- **Validate**: Contains a method for validating user input to ensure that operands are within a valid range and the operation is valid.
-- **CalculatorTest**: JUnit test cases for testing the functionality of the `Calculator` class.
-- **ComputeTest**: JUnit test cases for testing the functionality of the `Compute` class.
-- **ValidateInputTest**: JUnit test cases for testing the input validation functionality in the `Validate` class.
-- **ValidateTest**: Additional JUnit test cases for testing input validation.
+- `src/`: Berisi file kode sumber.
+- `test/`: Berisi file unit test.
+- `README.md`: Dokumentasi proyek.
+- File dan folder lain yang khusus untuk proyek yang dihasilkan oleh IDE Anda.
 
-## Features
+## Project Folder Structure (Getting Started)
+- `src/`: Berisi file kode sumber.
+- `test/`: Berisi file unit test.
+- `README.md`: Dokumentasi proyek.
+- File dan folder lain yang khusus untuk proyek yang dihasilkan oleh IDE Anda.
 
-- Perform addition, subtraction, multiplication, and division operations.
-- Input validation to ensure operands are within a valid range and the operation is valid.
-- Exception handling for division by zero.
+## How To Run Execution Testing
+1. Buka proyek di IDE Anda.
+2. Jalankan unit test yang terletak di direktori `test/`.
+3. Unit test akan menjalankan berbagai skenario untuk memvalidasi fungsionalitas program kalkulator.
 
-## Usage
+## Software Under Test
+Perangkat lunak yang diuji adalah program kalkulator sederhana yang ditulis dalam bahasa Java. Ini melakukan operasi aritmatika dasar pada operan integer.
 
-To use the calculator, run the `Main` class. Follow the on-screen instructions to enter two integers and choose an operation (+, -, *, /). The result of the operation will be displayed.
+## Test Case
+Test case mencakup skenario berikut:
+- Kombinasi input valid untuk penambahan, pengurangan, perkalian, dan pembagian.
+- Penanganan pembagian oleh nol.
+- Kombinasi input tidak valid untuk operan dan operator.
+- Kasus batas untuk validasi input.
+- Penanganan kesalahan untuk operasi tidak valid.
 
-Example:
-```
-Welcome to the Simple Calculator!
-Enter the first number: 10
-Enter the second number: 5
-Choose an operation (+, -, *, /): +
-Result: 15
-```
+## Author
+Dafa Nurul Fauziansyah
+Fariz Rahman Maulana
+Muhammad Deo Audha Rizki.
 
-## Testing
-
-The project includes JUnit tests to ensure the correctness of the calculator functionality and input validation. Run the test classes (`CalculatorTest`, `ComputeTest`, `ValidateInputTest`, `ValidateTest`) to execute the tests.
-
+## Reference
+Tidak ada referensi eksternal khusus yang digunakan dalam proyek ini.
