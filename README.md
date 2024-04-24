@@ -45,9 +45,9 @@ Test case mencakup skenario berikut:
 - Penanganan kesalahan untuk operasi tidak valid.
 
 ## Author
-Dafa Nurul Fauziansyah
-Fariz Rahman Maulana
-Muhammad Deo Audha Rizki.
+- Dafa Nurul Fauziansyah
+- Fariz Rahman Maulana
+- Muhammad Deo Audha Rizki.
 
 ## Reference
 Tidak ada referensi eksternal khusus yang digunakan dalam proyek ini.
