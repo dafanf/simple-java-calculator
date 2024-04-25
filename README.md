@@ -14,11 +14,6 @@ Untuk menjalankan proyek ini, pastikan Anda telah menginstal Java Development Ki
 2. Buka proyek di IDE Java pilihan Anda (misalnya IntelliJ IDEA, Eclipse).
 3. Bangun proyek untuk mengompilasi kode.
 
-## File Configuration
-Tidak ada konfigurasi file khusus yang diperlukan. Struktur proyek diorganisir sebagai berikut:
-
-## File Configuration
-Tidak ada konfigurasi file khusus yang diperlukan. Struktur proyek diorganisir sebagai berikut:
 
 ## File Configuration
 Tidak ada konfigurasi file khusus yang diperlukan. Struktur proyek diorganisir sebagai berikut:
