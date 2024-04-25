@@ -30,7 +30,9 @@ simple-java-calculator/
 ├─ .gitignore
 ├─ .project
 ├─ .settings/
-│  └─ (file dan folder settings lainnya)
+│  ├─ org.eclipse.jdt.apt.core.prefs
+│  ├─ org.eclipse.jdt.core.prefs
+│  └─ org.eclipse.m2e.core.prefs
 ├─ pom.xml
 ├─ README.md
 └─ src/
@@ -50,12 +52,32 @@ simple-java-calculator/
          └─ ValidateTest.java
 ```
 
+- `.git/`: Direktori yang berisi file dan folder untuk kontrol versi Git, termasuk riwayat perubahan, cabang (branches), dan konfigurasi Git lainnya.
+- `.gitignore`: File yang berisi daftar file dan folder yang diabaikan oleh Git saat melakukan pelacakan perubahan.
+- `.project`: File konfigurasi proyek yang digunakan oleh lingkungan pengembangan Eclipse IDE.
+- `.settings/`: Direktori yang berisi berbagai file konfigurasi untuk pengembangan menggunakan Eclipse IDE, seperti pengaturan kompiler dan pengintegrasian Maven.
+  - `org.eclipse.jdt.apt.core.prefs`: Pengaturan prosesor anotasi (APT) untuk proyek Java.
+  - `org.eclipse.jdt.core.prefs`: Pengaturan inti Java untuk proyek.
+  - `org.eclipse.m2e.core.prefs`: Pengaturan untuk pengintegrasian Maven dalam proyek.
+- `pom.xml`: File konfigurasi Maven yang digunakan untuk manajemen proyek, termasuk dependensi, plugin, dan konfigurasi Maven lainnya.
 
-## Project Folder Structure (Getting Started)
-- `src/`: Berisi file kode sumber.
-- `test/`: Berisi file unit test.
-- `README.md`: Dokumentasi proyek.
-- File dan folder lain yang khusus untuk proyek yang dihasilkan oleh IDE Anda.
+## Project Structure
+
+- `src/`: Direktori utama yang berisi kode sumber proyek.
+  - `main/`: Direktori kode sumber utama proyek.
+    - `java/`: Direktori kode Java.
+      - `com/`: Direktori root untuk struktur paket.
+        - `example/`: Paket yang digunakan untuk kelas-kelas Java.
+          - `Calculator.java`: Kelas yang mengimplementasikan logika kalkulator.
+          - `Compute.java`: Kelas yang menangani operasi aritmatika.
+          - `Main.java`: Kelas utama untuk menjalankan program.
+          - `Validate.java`: Kelas untuk validasi input.
+  - `test/`: Direktori unit test.
+    - `java/`: Direktori unit test Java.
+      - `CalculatorTest.java`: Unit test untuk kelas Calculator.
+      - `ComputeTest.java`: Unit test untuk kelas Compute.
+      - `ValidateInputTest.java`: Unit test untuk validasi input.
+      - `ValidateTest.java`: Unit test untuk kelas Validate.
 
 ## How To Run Execution Testing
 1. Buka proyek di IDE Anda.
