@@ -17,10 +17,31 @@ Untuk menjalankan proyek ini, pastikan Anda telah menginstal Java Development Ki
 ## File Configuration
 Tidak ada konfigurasi file khusus yang diperlukan. Struktur proyek diorganisir sebagai berikut:
 
-- `src/`: Berisi file kode sumber.
-- `test/`: Berisi file unit test.
-- `README.md`: Dokumentasi proyek.
-- File dan folder lain yang khusus untuk proyek yang dihasilkan oleh IDE Anda.
+## File Configuration
+Tidak ada konfigurasi file khusus yang diperlukan. Struktur proyek diorganisir sebagai berikut:
+
+- `simple-java-calculator/`: Direktori utama proyek.
+  - `.git/`: Direktori Git untuk kontrol versi.
+  - `.gitignore`: File yang menentukan file dan folder yang diabaikan oleh Git.
+  - `.project`: File konfigurasi proyek untuk Eclipse IDE.
+  - `.settings/`: Direktori konfigurasi untuk Eclipse IDE.
+  - `pom.xml`: File konfigurasi Maven untuk manajemen proyek.
+  - `README.md`: Dokumentasi proyek.
+  - `src/`: Direktori sumber kode.
+    - `main/`: Direktori kode utama.
+      - `java/`: Direktori kode Java.
+        - `com/example/`: Struktur paket untuk kelas-kelas Java.
+          - `Calculator.java`: Kelas yang mengimplementasikan logika kalkulator.
+          - `Compute.java`: Kelas yang menangani operasi aritmatika.
+          - `Main.java`: Kelas utama untuk menjalankan program.
+          - `Validate.java`: Kelas untuk validasi input.
+    - `test/`: Direktori unit test.
+      - `java/`: Direktori unit test Java.
+        - `CalculatorTest.java`: Unit test untuk kelas Calculator.
+        - `ComputeTest.java`: Unit test untuk kelas Compute.
+        - `ValidateInputTest.java`: Unit test untuk validasi input.
+        - `ValidateTest.java`: Unit test untuk kelas Validate.
+
 
 ## Project Folder Structure (Getting Started)
 - `src/`: Berisi file kode sumber.
