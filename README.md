@@ -23,27 +23,32 @@ Tidak ada konfigurasi file khusus yang diperlukan. Struktur proyek diorganisir s
 ## File Configuration
 Tidak ada konfigurasi file khusus yang diperlukan. Struktur proyek diorganisir sebagai berikut:
 
-- `simple-java-calculator/`: Direktori utama proyek.
-  - `.git/`: Direktori Git untuk kontrol versi.
-  - `.gitignore`: File yang menentukan file dan folder yang diabaikan oleh Git.
-  - `.project`: File konfigurasi proyek untuk Eclipse IDE.
-  - `.settings/`: Direktori konfigurasi untuk Eclipse IDE.
-  - `pom.xml`: File konfigurasi Maven untuk manajemen proyek.
-  - `README.md`: Dokumentasi proyek.
-  - `src/`: Direktori sumber kode.
-    - `main/`: Direktori kode utama.
-      - `java/`: Direktori kode Java.
-        - `com/example/`: Struktur paket untuk kelas-kelas Java.
-          - `Calculator.java`: Kelas yang mengimplementasikan logika kalkulator.
-          - `Compute.java`: Kelas yang menangani operasi aritmatika.
-          - `Main.java`: Kelas utama untuk menjalankan program.
-          - `Validate.java`: Kelas untuk validasi input.
-    - `test/`: Direktori unit test.
-      - `java/`: Direktori unit test Java.
-        - `CalculatorTest.java`: Unit test untuk kelas Calculator.
-        - `ComputeTest.java`: Unit test untuk kelas Compute.
-        - `ValidateInputTest.java`: Unit test untuk validasi input.
-        - `ValidateTest.java`: Unit test untuk kelas Validate.
+```
+simple-java-calculator/
+├─ .git/
+│  └─ (file dan folder Git lainnya)
+├─ .gitignore
+├─ .project
+├─ .settings/
+│  └─ (file dan folder settings lainnya)
+├─ pom.xml
+├─ README.md
+└─ src/
+   ├─ main/
+   │  └─ java/
+   │     └─ com/
+   │        └─ example/
+   │           ├─ Calculator.java
+   │           ├─ Compute.java
+   │           ├─ Main.java
+   │           └─ Validate.java
+   └─ test/
+      └─ java/
+         ├─ CalculatorTest.java
+         ├─ ComputeTest.java
+         ├─ ValidateInputTest.java
+         └─ ValidateTest.java
+```
 
 
 ## Project Folder Structure (Getting Started)
