@@ -45,3 +45,93 @@ Result: 15
 
 The project includes JUnit tests to ensure the correctness of the calculator functionality and input validation. Run the test classes (`CalculatorTest`, `ComputeTest`, `ValidateInputTest`, `ValidateTest`) to execute the tests.
 
+
+```
+simple-java-calculator
+├─ .classpath
+├─ .git
+│  ├─ config
+│  ├─ description
+│  ├─ FETCH_HEAD
+│  ├─ HEAD
+│  ├─ hooks
+│  │  ├─ applypatch-msg.sample
+│  │  ├─ commit-msg.sample
+│  │  ├─ fsmonitor-watchman.sample
+│  │  ├─ post-update.sample
+│  │  ├─ pre-applypatch.sample
+│  │  ├─ pre-commit.sample
+│  │  ├─ pre-merge-commit.sample
+│  │  ├─ pre-push.sample
+│  │  ├─ pre-rebase.sample
+│  │  ├─ pre-receive.sample
+│  │  ├─ prepare-commit-msg.sample
+│  │  ├─ push-to-checkout.sample
+│  │  ├─ sendemail-validate.sample
+│  │  └─ update.sample
+│  ├─ index
+│  ├─ info
+│  │  └─ exclude
+│  ├─ logs
+│  │  ├─ HEAD
+│  │  └─ refs
+│  │     ├─ heads
+│  │     │  ├─ bond
+│  │     │  └─ main
+│  │     └─ remotes
+│  │        └─ origin
+│  │           ├─ HEAD
+│  │           └─ main
+│  ├─ objects
+│  │  ├─ 29
+│  │  │  └─ 64a41d3032eb939b2ba9bb69955de6a10dd56f
+│  │  ├─ 36
+│  │  │  └─ 49c0da702ba6fe08f22d300e595e36c0dac392
+│  │  ├─ 5b
+│  │  │  └─ e7908b4c6072ef78c86bde8c0b8d4721d0eea0
+│  │  ├─ 7a
+│  │  │  └─ 7604453da3c4809db8ab90a7235af2784e3807
+│  │  ├─ e6
+│  │  │  └─ 86101be0348c65e6a8087c3581e71a952a2142
+│  │  ├─ ef
+│  │  │  └─ 6317af17344d924b59fd7ae0c54aab2ee5cd4e
+│  │  ├─ info
+│  │  └─ pack
+│  │     ├─ pack-efe2f105b01e824562459e18a284ab107f3b9f78.idx
+│  │     ├─ pack-efe2f105b01e824562459e18a284ab107f3b9f78.pack
+│  │     └─ pack-efe2f105b01e824562459e18a284ab107f3b9f78.rev
+│  ├─ packed-refs
+│  └─ refs
+│     ├─ heads
+│     │  ├─ bond
+│     │  └─ main
+│     ├─ remotes
+│     │  └─ origin
+│     │     ├─ HEAD
+│     │     └─ main
+│     └─ tags
+├─ .gitignore
+├─ .project
+├─ .settings
+│  ├─ org.eclipse.jdt.apt.core.prefs
+│  ├─ org.eclipse.jdt.core.prefs
+│  └─ org.eclipse.m2e.core.prefs
+├─ pom.xml
+├─ README.md
+└─ src
+   ├─ main
+   │  └─ java
+   │     └─ com
+   │        └─ example
+   │           ├─ Calculator.java
+   │           ├─ Compute.java
+   │           ├─ Main.java
+   │           └─ Validate.java
+   └─ test
+      └─ java
+         ├─ CalculatorTest.java
+         ├─ ComputeTest.java
+         ├─ ValidateInputTest.java
+         └─ ValidateTest.java
+
+```
